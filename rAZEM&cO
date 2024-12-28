@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razem&Co - Sklep Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="logo">Razem&Co</a></li>
+        <li><a href="produkty.html">Produkty</a></li>
+        <li><a href="koszyk.html">Koszyk</a></li>
+        <li><a href="regulamin.html">Regulamin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Witamy w Razem&Co!</h1>
+    <p>Modne produkty na każdą okazję. Odkryj nasze najnowsze kolekcje.</p>
+    <a href="produkty.html" class="cta-btn">Zobacz produkty</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Razem&Co. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produkty - Razem&Co</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="logo">Razem&Co</a></li>
+        <li><a href="produkty.html">Produkty</a></li>
+        <li><a href="koszyk.html">Koszyk</a></li>
+        <li><a href="regulamin.html">Regulamin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-list">
+    <h2>Nasze produkty</h2>
+    <div class="product-item">
+      <img src="produkt1.jpg" alt="Produkt 1">
+      <h3>Produkt 1</h3>
+      <p>Opis produktu 1</p>
+      <span>99,99 zł</span>
+      <a href="koszyk.html" class="cta-btn">Dodaj do koszyka</a>
+    </div>
+    <!-- Dodaj kolejne produkty w podobny sposób -->
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Razem&Co. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koszyk - Razem&Co</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="logo">Razem&Co</a></li>
+        <li><a href="produkty.html">Produkty</a></li>
+        <li><a href="koszyk.html">Koszyk</a></li>
+        <li><a href="regulamin.html">Regulamin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cart">
+    <h2>Twój koszyk</h2>
+    <div class="cart-item">
+      <img src="produkt1.jpg" alt="Produkt 1">
+      <h3>Produkt 1</h3>
+      <p>Opis produktu 1</p>
+      <span>99,99 zł</span>
+      <a href="#" class="cta-btn">Usuń</a>
+    </div>
+    <!-- Dodaj więcej produktów w koszyku -->
+    <div class="cart-total">
+      <span>Łączna kwota: 99,99 zł</span>
+      <a href="zamowienie.html" class="cta-btn">Przejdź do kasy</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Razem&Co. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regulamin - Razem&Co</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="logo">Razem&Co</a></li>
+        <li><a href="produkty.html">Produkty</a></li>
+        <li><a href="koszyk.html">Koszyk</a></li>
+        <li><a href="regulamin.html">Regulamin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="regulamin">
+    <h2>Regulamin</h2>
+    <p>Wszystkie zakupy w naszym sklepie są objęte poniższymi warunkami...</p>
+    <!-- Tutaj wstaw pełny regulamin -->
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Razem&Co. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zamówienie - Razem&Co</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="logo">Razem&Co</a></li>
+        <li><a href="produkty.html">Produkty</a></li>
+        <li><a href="koszyk.html">Koszyk</a></li>
+        <li><a href="regulamin.html">Regulamin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="order">
+    <h2>Podsumowanie zamówienia</h2>
+    <div class="order-summary">
+      <p>Produkt 1 - 99,99 zł</p>
+      <!-- Podsumowanie wszystkich produktów -->
+      <p>Łączna kwota: 99,99 zł</p>
+    </div>
+    <form action="#" method="POST">
+      <label for="imie">Imię:</label>
+      <input type="text" id="imie" name="imie" required>
+      <label for="adres">Adres:</label>
+      <input type="text" id="adres" name="adres" required>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit" class="cta-btn">Złóż zamówienie</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Razem&Co. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: #3e8e41;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #4b0082;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta-btn {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.product-list, .cart, .regulamin, .order {
+  padding: 20px;
+}
+
+.product-item {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cart-total {
+  font-size: 18px;
+}
+
+.order-summary {
+  margin-bottom: 20px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
